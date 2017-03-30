@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="ear:ear exploded">
+    <output-path>${symbol_dollar}PROJECT_DIR${symbol_dollar}/trash-app/ear/target/ear-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="${symbol_dollar}PROJECT_DIR${symbol_dollar}/trash-app/ear/target/ear-1.0/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

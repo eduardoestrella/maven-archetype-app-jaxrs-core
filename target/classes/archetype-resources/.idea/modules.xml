@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat-app/whitehat-app.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat-app/whitehat-app.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat-core/whitehat-core.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat-core/whitehat-core.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat-web/whitehat-web.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/whitehat-web/whitehat-web.iml" />
+    </modules>
+  </component>
+</project>

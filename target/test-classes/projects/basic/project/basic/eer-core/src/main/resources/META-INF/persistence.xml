@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="EerPersistenceUnit" transaction-type="JTA">
+
+        <jta-data-source>eerSource</jta-data-source>
+
+        <properties>
+            <property name="openjpa.Log" value="DefaultLevel=WARN, Runtime=INFO, Tool=INFO, SQL=TRACE"/>
+            <property name="openjpa.ConnectionFactoryProperties" value="PrintParameters=true" />
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
